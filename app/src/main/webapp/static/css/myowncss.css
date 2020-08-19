@@ -1,0 +1,245 @@
+@charset "ISO-8859-1";
+
+
+div.a{
+	text-align: center;
+}
+
+div.b{
+	background-color:#9d9c9a;
+}
+.bodyIssue{
+		margin-left:30px;
+	
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.span{
+	margin-left:30px;
+}
+/* #footer {
+ position:relative;
+   bottom:0;
+   width:100%;
+   height:60px;   Height of the footer
+
+   margin-top:30px;
+
+} */
+.bugs {
+  column-count: 3;
+
+  column-gap: 50px;
+
+  column-rule-style: solid;
+}
+
+.logoo{
+	position:center;
+	width:50px;
+	height:50px;	
+}
+
+.darkmode{
+	position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 600px;
+  min-width:300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn0 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top:60px;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+.card{
+	margin-top:20px;
+	margin-top:20px;
+	min-width:50%;
+-webkit-box-shadow: inset 0px 0px 0px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 0px 2px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 0px 2px rgba(0,0,0,0.75);
+background-color:#B5D3E7;
+
+;
+	
+	
+}
+
+.text-muted1{
+	float: right;
+}
+.text-muted2{
+	float: left;
+}
+.changeStatus{
+	float:right;
+	background-color: #555;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+position: relative;
+	
+}
+
+
+body{display:block !important}
+
+
+/* Popup Box */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 8888; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10vh auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+}
+@media (min-width: 1366px) {
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10vh auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+	}
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.button {
+	margin:3px;
+	float:right;
+	background-color: #555;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+position: relative;
+}
+
+button.button:hover {
+  border-bottom:#a99567 1px solid;
+  color:#a99567;
+}
+
+.card-texts{
+	color: black;
+}
